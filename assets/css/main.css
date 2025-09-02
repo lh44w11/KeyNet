@@ -167,12 +167,22 @@ h6 {
 }
 
 .header .top-row .logo .sitename {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: bold;
   color: var(--heading-color);
   font-family: var(--heading-font);
   margin: 0;
 }
+
+.logo img {
+    height: 60px;       /* ajusta la altura del logo */
+}
+
+.sitename {
+    font-size: 2rem;
+    line-height: 1;     /* alinea verticalmente con el logo */
+}
+
 
 .header .social-links a {
   color: var(--heading-color);
@@ -286,10 +296,10 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    padding: 18px 15px;
-    font-size: 15px;
+    padding: 12px 20px;
+    font-size: 1.4rem;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -521,7 +531,7 @@ h6 {
 .footer .footer-brand h1 .sitename,
 .footer .footer-brand .logo .sitename {
   font-family: var(--heading-font);
-  font-size: 26px;
+  font-size: 40px;
   letter-spacing: 0.8px;
   color: var(--heading-color);
 }
@@ -1209,7 +1219,30 @@ section,
   .hero .media-stack .floating-badge {
     transform: scale(0.95);
   }
+
 }
+
+/* --- Personalización de textos en el hero --- */
+.hero h1 {
+  font-size: 3.5rem;    /* muy grande */
+  font-weight: 800;     /* súper bold */
+  color: var(--heading-color); /* respeta tu esquema de colores */
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-bottom: 20px;
+}
+
 
 /*--------------------------------------------------------------
 # Featured Services Section
@@ -4846,3 +4879,5 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
