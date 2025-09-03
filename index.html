@@ -53,7 +53,15 @@
           <nav id="navmenu" class="navmenu">
             <ul>
               <li><a href="#hero" class="active">Inicio</a></li>
-              <li><a href="#about">Acerca de</a></li>
+              <li class="dropdown"><a href="#"><span>Acerca de</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                  <li><a href="#tech">Keynet Tech</a></li>
+                  <li><a href="#about">Nosotros</a></li>
+      
+                  <li><a href="#alcance">Alcance</a></li>
+              
+                </ul>
+              </li>
         
               <li class="dropdown"><a href="#"><span>Servicios</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
@@ -112,24 +120,23 @@
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div id="tech" class="container" data-aos="fade-up" data-aos-delay="100">
 
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Keynet Tech</h2>
+        
+        </div><!-- End Section Title -->
         <div class="row g-4">
+
 
           <!-- Card 1 -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-stack"></i>
+                <i class="bi bi-lightning-charge"></i>
               </div>
-              <h3>Digital Solutions</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Transformación digital</h3>
+              <p> Modernizar procesos con tecnología innovadora.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -137,16 +144,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-shield-check"></i>
+                <i class="bi bi-shield-lock"></i>
               </div>
-              <h3>Secure Systems</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Ciberseguridad</h3>
+              <p>Protección contra amenazas digitales, firewalls, VPNs y monitoreo constante.</p>
+             
             </div>
           </div><!-- End Service Item -->
 
@@ -154,16 +156,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-graph-up"></i>
+                <i class="bi bi-cloud-arrow-up"></i>
               </div>
-              <h3>Growth Strategy</h3>
-              <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Cloud Computing</h3>
+              <p>Migración a la nube, servidores virtuales y servicios escalables.</p>
+             
             </div>
           </div><!-- End Service Item -->
 
@@ -173,14 +170,9 @@
               <div class="icon">
                 <i class="bi bi-cpu"></i>
               </div>
-              <h3>AI Integration</h3>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Inteligencia Artificial</h3>
+              <p>Soluciones basadas en IA para análisis de datos, automatización y predicción.</p>
+            
             </div>
           </div><!-- End Service Item -->
 
@@ -188,16 +180,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-cloud-arrow-up"></i>
+                <i class="bi bi-bar-chart-line"></i>
               </div>
-              <h3>Cloud Services</h3>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>Big Data & Analítica</h3>
+              <p>Procesamiento de grandes volúmenes de datos para decisiones estratégicas.</p>
+           
             </div>
           </div><!-- End Service Item -->
 
@@ -205,16 +192,11 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item">
               <div class="icon">
-                <i class="bi bi-gear"></i>
+                <i class="bi bi-wifi"></i>
               </div>
-              <h3>Process Automation</h3>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
-              <div class="card-links">
-                <a href="#" class="link-item">
-                  Learn More
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
+              <h3>IoT (Internet de las cosas)</h3>
+              <p>Conexión y control inteligente de dispositivos para empresas y hogares.</p>
+           
             </div>
           </div><!-- End Service Item -->
 
@@ -229,7 +211,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
+        <h2>Nosotros</h2>
         <p>¿Quienes somos?</p>
       </div><!-- End Section Title -->
 
@@ -451,7 +433,7 @@
             <div class="feature-grid">
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
                 <div class="f-icon badge-blue">
-                  <i class="bi bi-cpu-fill"></i>
+                  <i class="bi bi-diagram-3"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Diseño de redes</h4>
@@ -461,7 +443,7 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="250">
                 <div class="f-icon badge-green">
-                  <i class="bi bi-lock-fill"></i>
+                  <i class="bi bi-headset"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Implementación y soporte</h4>
@@ -472,7 +454,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
                 <div class="f-icon badge-purple">
-                  <i class="bi bi-diagram-3-fill"></i>
+                  <i class="bi bi-plug-fill"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Cableado Estructurado</h4>
@@ -483,7 +466,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="350">
                 <div class="f-icon badge-orange">
-                  <i class="bi bi-bar-chart-fill"></i>
+                  <i class="bi bi-camera-video-fill"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">CCTV</h4>
@@ -494,7 +478,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="400">
                 <div class="f-icon badge-cyan">
-                  <i class="bi bi-cloud-arrow-down-fill"></i>
+                  <i class="bi bi-shield-lock-fill"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Seguridad y optimización</h4>
@@ -549,6 +534,7 @@
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
                 <div class="f-icon badge-blue">
                   <i class="bi bi-cpu-fill"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Hardware</h4>
@@ -558,7 +544,7 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="250">
                 <div class="f-icon badge-green">
-                  <i class="bi bi-lock-fill"></i>
+                  <i class="bi bi-gear-fill"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Sistemas operativos</h4>
@@ -569,7 +555,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
                 <div class="f-icon badge-purple">
-                  <i class="bi bi-diagram-3-fill"></i>
+                  <i class="bi bi-patch-check-fill"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Licencias originales</h4>
@@ -580,7 +567,7 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="350">
                 <div class="f-icon badge-orange">
-                  <i class="bi bi-bar-chart-fill"></i>
+                  <i class="bi bi-tools"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Soporte técnico</h4>
@@ -623,18 +610,22 @@
               <div class="intro-content">
                 <h3 class="intro-title">Desarrollo de Software</h3>
                 <p class="intro-text">Cada empresa necesita soluciones únicas para diferenciarse</p>
-              
-                <strong>¿Por qué elegirnos? </strong> 
-                <p>No ofrecemos plantillas genéricas: desarrollamos soluciones a medida que realmente resuelven problemas y potencian tu negocio.</p>
+
+                <strong class="subtitulo">¿Por qué elegirnos?</strong>
+                <p class="contenido">
+                  No ofrecemos plantillas genéricas: desarrollamos soluciones a medida que realmente 
+                  resuelven problemas y potencian tu negocio.
+                </p>
               </div>
             </article>
           </div>
+
 
           <div class="col-lg-7">
             <div class="feature-grid">
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="200">
                 <div class="f-icon badge-blue">
-                  <i class="bi bi-cpu-fill"></i>
+                  <i class="bi bi-globe2"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Páginas web profesionales</h4>
@@ -644,7 +635,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="250">
                 <div class="f-icon badge-green">
-                  <i class="bi bi-lock-fill"></i>
+                  <i class="bi bi-building"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Plataformas empresariales</h4>
@@ -655,7 +647,8 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
                 <div class="f-icon badge-purple">
-                  <i class="bi bi-diagram-3-fill"></i>
+                  <i class="bi bi-braces-asterisk"></i>
+
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">APIs personalizadas</h4>
@@ -666,7 +659,7 @@
 
               <div class="feature-item" data-aos="zoom-in" data-aos-delay="350">
                 <div class="f-icon badge-orange">
-                  <i class="bi bi-bar-chart-fill"></i>
+                  <i class="bi bi-graph-up-arrow"></i>
                 </div>
                 <div class="f-body">
                   <h4 class="f-title">Optimización digital</h4>
@@ -781,43 +774,28 @@
 
         <div class="col-lg-4">
           <div class="footer-brand">
-            <a href="index.html" class="logo d-flex align-items-center mb-3">
-              <span class="sitename">KeyNet</span>
+            <a class="logo d-flex align-items-center mb-3">
+              <img src="assets/img/logo.webp.png" alt="KeyNet" >
             </a>
             <p class="tagline">Impulsamos la innovación digital con soluciones elegantes y diseño atemporal.</p>
-
-            
           </div>
         </div>
 
         <div class="col-lg-6">
           <div class="footer-links-grid">
             <div class="row">
-              <div class="col-6 col-md-4">
+              <div class="col-lg-2 offset-lg-2">
                 <h5>Company</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Newsroom</a></li>
+                  <li><a href="#about">Nosotros</a></li>
                 </ul>
               </div>
-              <div class="col-6 col-md-4">
+              <div class="col-lg-4">
                 <h5>Services</h5>
                 <ul class="list-unstyled">
-                  <li><a href="#">Web Development</a></li>
-                  <li><a href="#">UI/UX Design</a></li>
-                  <li><a href="#">Digital Strategy</a></li>
-                  <li><a href="#">Branding</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h5>Support</h5>
-                <ul class="list-unstyled">
-                  <li><a href="#">Help Center</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#redes">Redes</a></li>
+                  <li><a href="#hardware">Hardware & Software</a></li>
+                  <li><a href="#software">Software</a></li>
                 </ul>
               </div>
             </div>
@@ -826,8 +804,7 @@
 
         <div class="col-lg-2">
           <div class="footer-cta">
-            <h5>Let's Connect</h5>
-            <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+            <a href="#contact" class="btn btn-outline">¡Contactanos!</a>
           </div>
         </div>
 
@@ -839,12 +816,16 @@
         <div class="row">
           <div class="col-12">
             <div class="footer-bottom-content">
-              <p class="mb-0">© <span class="sitename">Myebsite</span>. All rights reserved.</p>
+              <p class="mb-0">© <span class="sitename">Mywebsite</span>. All rights reserved.</p>
               <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                <small class="d-block">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#privacidadModal" class="legal-link">
+                    Política de Privacidad
+                  </a> | 
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#terminosModal" class="legal-link">
+                    Términos y Condiciones
+                  </a>
+                </small>
                 Designed by Us
               </div>
             </div>
@@ -853,6 +834,40 @@
       </div>
     </div>
 
+    <div class="modal fade" id="privacidadModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">KeyNet - Política de Privacidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Respetamos tu información y no la compartimos con terceros.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Términos y Condiciones -->
+  <div class="modal fade" id="terminosModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">KeyNet - Términos y Condiciones</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          El uso de este sitio implica la aceptación de nuestras reglas y limitaciones.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
   </footer>
 
   <!-- Scroll Top -->

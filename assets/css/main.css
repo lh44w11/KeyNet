@@ -185,6 +185,12 @@ h6 {
     line-height: 1;     /* alinea verticalmente con el logo */
 }
 
+.footer-bottom small {
+  font-size: 0.85rem;
+  color: #888;   /* gris suave */
+}
+
+
 
 .header .social-links a {
   color: var(--heading-color);
@@ -4945,6 +4951,7 @@ section,
 .contact-form button:hover {
   background-color: #b71c1c;
 }
+
 
 
 /* Contenedor de mensajes */
