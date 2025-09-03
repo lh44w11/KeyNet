@@ -23,7 +23,7 @@ $consulta = $_POST['consulta'] ?? '';
 
 // ✅ Usar Prepared Statement para evitar inyección SQL
 $stmt = $conn->prepare("INSERT INTO contactos (nombre, apellido, email, servicio, consulta) VALUES (?, ?, ?, ?, ?)");
-$stmt->bind_param( "ssssss", $nombre, $apellido, $email, $servicio, $consulta);
+$stmt->bind_param( "sssss", $nombre, $apellido, $email, $servicio, $consulta);
 
 // Ejecutar
 if ($stmt->execute()) {
