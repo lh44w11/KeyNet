@@ -7,8 +7,6 @@
   <meta name="Redes Desarrollo Web Aplicaciones Soporte Técnico" content="">
   <meta name="Keynet Tech Solutions" content="">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -21,7 +19,7 @@
   <header id="header" class="header sticky-top" style="border-bottom: 15px solid #e9ecef;">
     <div class="container-fluid container-xl position-relative">
       <div class="top-row d-flex align-items-center justify-content-between">
-        <a href="/keynet/" class="logo d-flex align-items-center">
+        <a href="/" class="logo d-flex align-items-center">
           <img src="assets/img/logo.webp.png" alt="KeyNet" class="logosize"> 
         </a>
         <div class="container d-flex justify-content-center position-relative">
@@ -521,13 +519,13 @@
               <form id="contactForm" autocomplete="off" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" required="">
+                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
                   </div>
                   <div class="col-md-6">
-                    <input type="text" name="apellido" class="form-control" placeholder="Apellido" required="">
+                    <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
                   </div>
                   <div class="col-md-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
                   </div>
                   <div class="col-md-12">
                     <select class="form-control" name="servicio" placeholder= "Servicio" required>
@@ -538,12 +536,12 @@
                     </select>
                   </div>
                   <div class="col-md-12">
-                    <textarea class="form-control" name="consulta" rows="6" placeholder="Dejá tu consulta" required=""></textarea>
+                    <textarea class="form-control" name="consulta" rows="6" placeholder="Dejá tu consulta" required></textarea>
                   </div>
                   <div class="col-md-12 text-center">
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
-                    <div class="sent-message">Tu mensaje fue enviado, nos contactaremos!</div>
+                    <!--<div class="sent-message">Tu mensaje fue enviado, nos contactaremos!</div>-->
                     <button id="sendmail" type="submit">Enviar Mensaje</button>
                   </div>
                   <div id="response"></div>
@@ -596,16 +594,17 @@
       </div>
     </div>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/scripts.js"></script>
 </html>

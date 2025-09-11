@@ -9,7 +9,7 @@ $(document).ready(function () {
       success: function (response) {
             if (response.trim() === "true") {
                 $("#contactForm button[type=submit]").hide();
-                $("#response").html("<div class='alert alert-success'>✅ Mensaje enviado con éxito</div>");
+                $("#response").html("<div class='alert alert-success'>Hemos recibido tu mensaje y nos contactaremos a la brevedad. Muchas Gracias!</div>");
                 $("#contactForm").trigger("reset");
                 setTimeout(function () {
                     $("#successMsg").fadeOut();

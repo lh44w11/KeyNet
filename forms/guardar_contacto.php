@@ -1,9 +1,9 @@
 <?php
 // ⚡ Datos de conexión a MySQL (ajustalos con tu configuración)
 $servername = "localhost";   // servidor
-$username   = "root";        // usuario (por defecto en XAMPP es "root")
-$password   = "Sofia2025!";            // contraseña (vacío en XAMPP por defecto)
-$dbname     = "keynet"; // nombre de tu base de datos
+$username   = "mr000171_kn";        // usuario (por defecto en XAMPP es "root")
+$password   = "SofiLinda25";            // contraseña (vacío en XAMPP por defecto)
+$dbname     = "mr000171_kn"; // nombre de tu base de datos
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
