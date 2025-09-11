@@ -26,7 +26,7 @@
 
 </head>
 <body class="index-page">
-  <header id="header" class="header sticky-top" style="border-bottom: 5px solid black;">
+  <header id="header" class="header sticky-top" style="border-bottom: 15px solid #e9ecef;">
     <div class="container-fluid container-xl position-relative">
 
       <div class="top-row d-flex align-items-center justify-content-between">
@@ -37,8 +37,8 @@
         <div class="container d-flex justify-content-center position-relative">
           <nav id="navmenu" class="navmenu">
             <ul>
-              <li><a href="#hero" class="active">Inicio</a></li>
-              <li class="dropdown"><a href="#"><span>Acerca de</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#home">Inicio</a></li>
+              <li class="dropdown about"><a href="#"><span>Acerca de</span><i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
                   <li><a href="#tech">Keynet Tech</a></li>
                   <li><a href="#about">Nosotros</a></li>
@@ -49,7 +49,7 @@
                 <ul>
                   <li><a href="#redes">Redes</a></li>
                   <li><a href="#hardware">Hardware & Software</a></li>
-                  <li><a href="#software">Software</a></li>
+                  <li><a href="#software">Desarrollo de Software</a></li>
                 </ul>
               </li>
               <li><a href="#contact">Contacto</a></li>
@@ -61,12 +61,12 @@
     </div>
   </header>
   <main class="main">
-    <section id="hero" class="hero d-flex align-items-start flex-column">
+    <section id="home" class="home d-flex align-items-start flex-column">
       <div class="container text-center ">
         <h1>Tech Solutions</h1>
         <h2>Construimos soluciones tecnológicas a tu medida</h2>
         <p>Redes, Hardware y Software para hacer crecer tu negocio.</p>
-        <a href="#services" class="btn btn-danger mt-3">Explorar</a>
+        <a href="#services" class="btn btn-danger mt-3">Conocé Nuestros Servicios</a>
       </div>
       <div id="heroCarousel" class="carousel slide mt-4 w-100" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
@@ -82,7 +82,7 @@
         </div>
       </div>
     </section>
-    <section id="featured-services" class="featured-services section">
+    <section id="tech" class="about section">
       <div id="tech" class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="container section-title" data-aos="fade-up">
           <h2>Keynet Tech</h2>
@@ -228,8 +228,8 @@
     </section>
     <section id="services" class="services section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>¿Que te ofrecemos?</p>
+        <h2>Servicios</h2>
+        <p>¿De qué sabemos?</p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-5">
@@ -578,11 +578,6 @@
 
     </section><!-- /Features Section -->
 
-
-
-
-    <!--Alcance Section-->
-
     <section id="alcance" class="about section">
 
       <!-- Section Title -->
@@ -678,10 +673,10 @@
                   <!-- Servicio requerido (fila completa) -->
                   <div class="col-md-12">
                     <select class="form-control" name="servicio" placeholder= "Servicio" required>
-                      <option value="" disabled selected>Selecciona un servicio</option>
+                      <option value="" disabled selected> --- Selecciona un Tema ---</option>
                       <option value="Redes">Redes</option>
                       <option value="Hardware & Software">Hardware & Software</option>
-                      <option value="Software">Software</option>
+                      <option value="Software">Desarrollo de Software</option>
                     </select>
 
                   </div>
@@ -723,17 +718,19 @@
             <a class="logo d-flex align-items-center mb-3">
               <img src="assets/img/logo.webp.png" alt="KeyNet" >
             </a>
-            <p class="tagline">Impulsamos la innovación digital con soluciones elegantes y diseño atemporal(???).</p>
+            <p class="tagline">"Impulsamos la Innovación Digital"</p>
           </div>
         </div>
 
         <div class="col-lg-6">
           <div class="footer-links-grid">
             <div class="row">
-              <div class="col-lg-2 offset-lg-2">
-                <h5>Companía</h5>
+              <div class="col-lg-4 offset-lg-2">
+                <h5>Acerca de</h5>
                 <ul class="list-unstyled">
+                  <li><a href="#tech">Keynet Tech</a></li>
                   <li><a href="#about">Nosotros</a></li>
+                  <li><a href="#alcance">Alcance</a></li>
                 </ul>
               </div>
               <div class="col-lg-4">
@@ -741,31 +738,20 @@
                 <ul class="list-unstyled">
                   <li><a href="#redes">Redes</a></li>
                   <li><a href="#hardware">Hardware & Software</a></li>
-                  <li><a href="#software">Software</a></li>
+                  <li><a href="#software">Desarrollo de Software</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-
         <div class="col-lg-2">
           <div class="footer-cta">
             <a href="#contact" class="btn btn-outline">¡Contáctanos!</a>
           </div>
         </div>
-
       </div>
     </div>
-
-
-
-
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -775,9 +761,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/scripts.js"></script>
-
 </body>
 </html>

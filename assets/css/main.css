@@ -1,17 +1,5 @@
-/**
-* Template Name: FlexBiz
-* Template URL: https://bootstrapmade.com/flexbiz-bootstrap-business-template/
-* Updated: Aug 04 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 @charset "UTF-8";
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -35,7 +23,7 @@
   --nav-color: #222222;  /* The default color of the main navmenu links */
   --nav-hover-color: #dd3209; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #faf6f6; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-background-color: #fffcfc; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #222222; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #dd3209; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
   --nav-dropdown-border-color: #0f0b0b;
@@ -331,6 +319,7 @@ h6 {
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
+    background-color: rgb(235, 235, 235);
   }
 
   .navmenu .dropdown ul {
@@ -341,7 +330,7 @@ h6 {
     position: absolute;
     visibility: hidden;
     color: var(--nav-dropdown-color);
-    border: 4px solid var(--nav-dropdown-border-color);
+    /*border: 4px solid var(--nav-dropdown-border-color);*/
     left: 14px;
     top: 130%;
     opacity: 0;
@@ -552,6 +541,7 @@ h6 {
   line-height: 1.7;
   font-weight: 300;
   margin: 12px 0 0;
+  margin-bottom: 30px;
 }
 
 .footer .social-links {
